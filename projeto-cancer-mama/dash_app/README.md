@@ -77,7 +77,7 @@ fiap-pos-tech-ia-para-devs-tech-challenge-fase-1/projeto-cancer-mama/
   - pip versão: `25.3`
 
 - Clone o repositório:
-  - ```git clone [git@github.com:leojosants/fiap-pos-tech-ia-para-devs-tech-challenge-fase-1.git]```
+  - ```git clone git@github.com:leojosants/fiap-pos-tech-ia-para-devs-tech-challenge-fase-1.git```
   - ```cd projeto-cancer-mama/dash_app```
 
 - Crie um ambiente virtual e instale as dependências:
@@ -100,3 +100,4 @@ fiap-pos-tech-ia-para-devs-tech-challenge-fase-1/projeto-cancer-mama/
 - Fernando Monin - RM369303
 - Wellington José - RM369441
 - Leonardo Oliveira - RM369985
+

@@ -3,15 +3,15 @@
 
 ## Tech Challenge -- Fase 1 - Welcome to IA para Devs
 
-## 🏥 Sistema Inteligente de Apoio ao Diagnóstico - Câncer de Mama
+## Sistema Inteligente de Apoio ao Diagnóstico - Câncer de Mama
 
 Este projeto foi desenvolvido como parte do Tech Challenge (Fase 1) da Pós-Tech FIAP. O objetivo é auxiliar médicos de um hospital universitário na análise inicial de exames de câncer de mama, utilizando Machine Learning para triagem e suporte à decisão baseada em diferentes contextos clínicos.
 
-## 🔗 Demonstração
+## Demonstração
 
 [Acesse a aplicação online: Hugging Face Spaces - Saúde da Mulher ML](https://huggingface.co/spaces/leonardoleojosants/fiap-tech-challenge-fase-1-saude-mulher-ml)
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Análise Preditiva:
   - Identificação de indícios de tumores malignos ou benignos com base no dataset Breast Cancer Wisconsin.
@@ -25,7 +25,7 @@ Este projeto foi desenvolvido como parte do Tech Challenge (Fase 1) da Pós-Tech
 - Persistência Local:
   - Armazenamento automático da última análise realizada no navegador do usuário.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - O projeto utiliza o ecossistema Python focado em ciência de dados e aplicações web:
   - Interface:
@@ -40,7 +40,7 @@ Este projeto foi desenvolvido como parte do Tech Challenge (Fase 1) da Pós-Tech
   - Deploy:
     - [Hugging Face Spaces](https://huggingface.co/spaces)
 
-## 🧠 O Modelo de Machine Learning
+## O Modelo de Machine Learning
 
 - O sistema utiliza um RandomForestClassifier otimizado, integrado em um pipeline que inclui a padronização de escalas (StandardScaler).
   - Dataset:
@@ -49,7 +49,7 @@ Este projeto foi desenvolvido como parte do Tech Challenge (Fase 1) da Pós-Tech
   - Acurácia:
     - O modelo foca no equilíbrio entre sensibilidade (para evitar falsos negativos em triagens) e precisão (para evitar procedimentos invasivos desnecessários).
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```md
 fiap-pos-tech-ia-para-devs-tech-challenge-fase-1/projeto-cancer-mama/
@@ -70,7 +70,7 @@ fiap-pos-tech-ia-para-devs-tech-challenge-fase-1/projeto-cancer-mama/
 │       └── model.py            # Lógica de treino e predição
 ```
 
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
 - Requisitos
   - python versão: `3.12.0`
@@ -89,7 +89,7 @@ fiap-pos-tech-ia-para-devs-tech-challenge-fase-1/projeto-cancer-mama/
   - ```python app.py```
   - ```Acesse no navegador: http://localhost:7860```
 
-## ⚖️ Aviso Legal
+## Aviso Legal
 
 - Esta ferramenta é um protótipo para fins educacionais e suporte à decisão. O diagnóstico final deve ser sempre realizado por um profissional médico qualificado.
 
@@ -100,4 +100,3 @@ fiap-pos-tech-ia-para-devs-tech-challenge-fase-1/projeto-cancer-mama/
 - Fernando Monin - RM369303
 - Wellington José - RM369441
 - Leonardo Oliveira - RM369985
-

@@ -3,11 +3,11 @@
 
 ## Tech Challenge -- Fase 1 - Welcome to IA para Devs
 
-## 🏥 Sistema Inteligente de Apoio ao Diagnóstico - Câncer de Mama
+## Sistema Inteligente de Apoio ao Diagnóstico - Câncer de Mama
 
 ---
 
-## 📝 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto consiste em um **sistema de suporte ao diagnóstico em saúde da mulher** desenvolvido como parte do Tech Challenge – Fase 1.  
 
@@ -17,7 +17,7 @@ O objetivo principal é **auxiliar profissionais de saúde na identificação pr
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 O sistema oferece:
 
@@ -35,7 +35,7 @@ O sistema oferece:
 
 ---
 
-## 📊 Dataset Utilizado
+## Dataset Utilizado
 
 - **Breast Cancer Wisconsin (Diagnostic)**  
   - Contém atributos extraídos de exames de tumores mamários.  
@@ -57,13 +57,7 @@ O sistema oferece:
 - shap  
 - joblib  
 
-### Instale as dependências com
-
-```bash
-pip install -r requirements.txt
-```
-
-### 📂 Estrutura de Arquivos
+## 📂 Estrutura de Arquivos
 
 ```bash
 fiap-pos-tech-ia-para-devs-tech-challenge-fase-1/testes
@@ -80,8 +74,8 @@ fiap-pos-tech-ia-para-devs-tech-challenge-fase-1/testes
 1 - Clone o repositório:
 
 ```bash
-git clone fiap-pos-tech-ia-para-devs-tech-challenge-fase-1
-cd <projeto-cancer-mama/testes>
+git clone git@github.com:leojosants/fiap-pos-tech-ia-para-devs-tech-challenge-fase-1.git
+cd projeto-cancer-mama/testes
 ```
 
 2 - Crie e ative um ambiente virtual:
@@ -102,7 +96,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 📚 Notebook de Demonstração
+## Notebook de Demonstração
 
 - O notebook `saude_mulher_ml.ipynb` contém:
   - Todo o passo a passo da análise de dados
@@ -111,7 +105,7 @@ pip install -r requirements.txt
   - Relato narrativo para apresentação do projeto
   - Ele pode ser usado para documentação da apresentação da banca FIAP.
 
-## ⚖️ Observações Importantes
+## Observações Importantes
 
 - Sistema não substitui avaliação médica.
 - Modelo treinado com dataset acadêmico limitado.
@@ -124,5 +118,3 @@ pip install -r requirements.txt
 - Fernando Monin - RM369303
 - Wellington José - RM369441
 - Leonardo Oliveira - RM369985
-
-  

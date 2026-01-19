@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.top-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.charts {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.charts dcc-graph,
+.charts .box {
+    width: 100% !important;
+}
+
+.charts img {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+
+    .top-grid,
+    .charts {
+        grid-template-columns: 1fr;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#run-analysis {
+    cursor: pointer;
+}
+
+#run-analysis:disabled {
+    cursor: not-allowed;
+}
+
+/* Container de resultados */
+#analysis-output {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Header paciente + botão */
+#patient-header {
+    font-weight: bold;
+}
+
+#current-patient {
+    text-align: center;
+}
+
+#clear-result {
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}

@@ -124,4 +124,5 @@ pip install -r requirements.txt
 - Fernando Monin - RM369303
 - Wellington José - RM369441
 - Leonardo Oliveira - RM369985
+
   

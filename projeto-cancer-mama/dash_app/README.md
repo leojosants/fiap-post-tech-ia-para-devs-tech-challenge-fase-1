@@ -1,7 +1,7 @@
 
-# Curso: Pós-graduação IA para Desenvolvedores – FIAP 2025/2026
+# FIAP - Pós Tech -- Curso IA para Devs 2025/2026
 
-## Tech Challenge – Fase 1  
+## Tech Challenge -- Fase 1 - Welcome to IA para Devs
 
 ## 🏥 Sistema Inteligente de Apoio ao Diagnóstico - Câncer de Mama
 
@@ -11,7 +11,7 @@ Este projeto foi desenvolvido como parte do Tech Challenge (Fase 1) da Pós-Tech
 
 [Acesse a aplicação online: Hugging Face Spaces - Saúde da Mulher ML](https://huggingface.co/spaces/leonardoleojosants/fiap-tech-challenge-fase-1-saude-mulher-ml)
 
-## 📋 Funcionalidades
+## 🚀 Funcionalidades
 
 - Análise Preditiva:
   - Identificação de indícios de tumores malignos ou benignos com base no dataset Breast Cancer Wisconsin.
@@ -52,7 +52,7 @@ Este projeto foi desenvolvido como parte do Tech Challenge (Fase 1) da Pós-Tech
 ## 📂 Estrutura do Projeto
 
 ```md
-projeto-cancer-mama/
+fiap-pos-tech-ia-para-devs-tech-challenge-fase-1/projeto-cancer-mama/
 ├── dash_app/
 │   ├── app.py                  # Entrada principal da aplicação Dash
 │   ├── requirements.txt        # Dependências do projeto
@@ -77,17 +77,17 @@ projeto-cancer-mama/
   - pip versão: `25.3`
 
 - Clone o repositório:
-  - ```git clone [https://github.com/diegosmatos/detect_pcos_ia]```
+  - ```git clone [git@github.com:leojosants/fiap-pos-tech-ia-para-devs-tech-challenge-fase-1.git]```
   - ```cd projeto-cancer-mama/dash_app```
 
 - Crie um ambiente virtual e instale as dependências:
   - ```python -m venv venv```
   - ```source venv/bin/activate  # No Windows: venv\Scripts\activate```
   - ```pip install -r requirements.txt```
-  - ```Acesse no navegador: http://localhost:7860```
 
 - Execute a aplicação:
   - ```python app.py```
+  - ```Acesse no navegador: http://localhost:7860```
 
 ## ⚖️ Aviso Legal
 
@@ -95,7 +95,7 @@ projeto-cancer-mama/
 
 ## Autores
 
-- Diego - RM
+- Diego Pereira - RM369440
 - Thiago Venceslau - RM369527
 - Fernando Monin - RM369303
 - Wellington José - RM369441

@@ -1,13 +1,13 @@
 
-# FIAP - Pós Tech -- Curso IA para Devs
+# FIAP - Pós Tech -- Curso IA para Devs 2025/2026
 
 ## Tech Challenge -- Fase 1 - Welcome to IA para Devs
 
-### Sistema Inteligente de Suporte ao Diagnóstico em Saúde da Mulher
+## 🏥 Sistema Inteligente de Apoio ao Diagnóstico - Câncer de Mama
 
 ---
 
-### 📝 Descrição do Projeto
+## 📝 Descrição do Projeto
 
 Este projeto consiste em um **sistema de suporte ao diagnóstico em saúde da mulher** desenvolvido como parte do Tech Challenge – Fase 1.  
 
@@ -17,7 +17,7 @@ O objetivo principal é **auxiliar profissionais de saúde na identificação pr
 
 ---
 
-### 🚀 Funcionalidades
+## 🚀 Funcionalidades
 
 O sistema oferece:
 
@@ -35,7 +35,7 @@ O sistema oferece:
 
 ---
 
-### 📊 Dataset Utilizado
+## 📊 Dataset Utilizado
 
 - **Breast Cancer Wisconsin (Diagnostic)**  
   - Contém atributos extraídos de exames de tumores mamários.  
@@ -44,7 +44,7 @@ O sistema oferece:
 
 ---
 
-### 🛠 Requisitos do Sistema
+## 🛠 Requisitos do Sistema
 
 - **Python 3.12**
 - **Pip 25.3** ou superior
@@ -66,22 +66,22 @@ pip install -r requirements.txt
 ### 📂 Estrutura de Arquivos
 
 ```bash
-fiap-2025-tech-challenge-fase-/
+fiap-pos-tech-ia-para-devs-tech-challenge-fase-1/testes
 │
 ├─ data/raw/breast_cancer.csv          # Dataset original
 ├─ models/                             # Modelos treinados (Random Forest, etc.)
-├─ testes/notebooks/saude_mulher_ml.ipynb  # Notebook narrativo completo
+├─ notebooks/saude_mulher_ml.ipynb  # Notebook narrativo completo
 ├─ requirements.txt                     # Bibliotecas
 └─ README.md                            # Este arquivo
 ```
 
-### ⚡ Como Clonar e Executar
+## ⚡ Como Clonar e Executar
 
 1 - Clone o repositório:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_REPOSITORIO>
+git clone fiap-pos-tech-ia-para-devs-tech-challenge-fase-1
+cd <projeto-cancer-mama/testes>
 ```
 
 2 - Crie e ative um ambiente virtual:
@@ -102,22 +102,22 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 📚 Notebook de Demonstração
+## 📚 Notebook de Demonstração
 
-- O notebook tests/notebooks/saude_mulher_ml.ipynb contém:
+- O notebook `saude_mulher_ml.ipynb` contém:
   - Todo o passo a passo da análise de dados
   - Treinamento e avaliação dos modelos
   - Explicabilidade com SHAP
   - Relato narrativo para apresentação do projeto
   - Ele pode ser usado para documentação da apresentação da banca FIAP.
 
-### ⚖️ Observações Importantes
+## ⚖️ Observações Importantes
 
 - Sistema não substitui avaliação médica.
 - Modelo treinado com dataset acadêmico limitado.
 - Para aplicações clínicas reais, seria necessária validação externa e integração com sistemas hospitalares.
 
-### Autores
+## Autores
 
 - Diego Pereira - RM369440
 - Thiago Venceslau - RM369527
